@@ -3,7 +3,7 @@ body {
   margin: 0px;
 }
 
-.p {
+p {
   color: red;
 }
 
@@ -60,4 +60,17 @@ body {
   flex: 70%;
   background-color: white;
   padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
 }
