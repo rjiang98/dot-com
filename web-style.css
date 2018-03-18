@@ -3,10 +3,6 @@ body {
   margin: 0px;
 }
 
-p {
-  color: red;
-}
-
 .header {
   padding: 80px;
   text-align: center;
@@ -51,7 +47,7 @@ p {
 }
 
 .side {
-  flex: 30%;
+  flex: 20%;
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -73,4 +69,10 @@ p {
         float: none;
         width: 100%;
     }
+}
+
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #ddd;
 }
