@@ -14,9 +14,23 @@ b {
 }
 .header h1 {
   font-size: 75px;
+  text-shadow: 1px 4px #094338;
 }
 .header p {
   font-size: 35px;
+  text-shadow: 1px 3px #094338;
+}
+
+.banner {
+  padding: 40px;
+  text-align: left;
+  background: #1abc9c;
+}
+.banner a {
+  font-size: 50px;
+  text-shadow: 1px 3px #094338;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar {
@@ -36,28 +50,7 @@ b {
 }
 .navbar a:hover {
   background-color: #1fe0ba;
-  color: white;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.side {
-  flex: 20%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-@media screen and (max-width: 500px) {
-    .row {
-        flex-direction: column;
-    }
+  color: black;
 }
 @media screen and (max-width: 400px) {
     .navbar a {
@@ -66,8 +59,23 @@ b {
     }
 }
 
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+}
+.side {
+  padding-left: 30px;
+}
+.main {
+  background-color: white;
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .footer {
-  padding: 40px;
+  padding: 30px;
   text-align: left;
   background: #ddd;
 }
