@@ -27,10 +27,13 @@ b {
   background: #1abc9c;
 }
 .banner a {
+  padding: 10px;
   font-size: 50px;
-  text-shadow: 1px 3px #094338;
   text-decoration: none;
-  color: white;
+  color: #094338;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 .navbar {
@@ -65,7 +68,15 @@ b {
   background-color: #f1f1f1;
 }
 .side {
-  padding-left: 30px;
+  padding: 30px;
+}
+.side h1 {
+  text-align: left;
+}
+.side img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
 }
 .main {
   background-color: white;
