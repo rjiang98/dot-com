@@ -73,11 +73,6 @@ b {
 .side h1 {
   text-align: left;
 }
-.side img {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-}
 .main {
   background-color: white;
   padding: 30px;
